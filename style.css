@@ -1,0 +1,232 @@
+h1{
+    text-align:center; 
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+
+  background: #A9A9A9;
+  font-family: Monospace;
+}
+
+.main{
+  width: 60%;
+  margin: 60px auto;
+  position: relative;
+}
+
+#button{
+  padding: 20px 40px;
+  font-family: Monospace;
+  font-size: 16px;
+  cursor: pointer;
+  transform: translate(300%, -350%);
+}
+
+#selector {
+    height: 52px;
+    width: 100px;
+    position:static;
+    transform: translateX(-50%);
+    } 
+
+ /* Motor1 */
+
+#slider{ 
+ -webkit-appearance: none;
+  width: 50%;
+  height: 9px;
+  outline:none;
+  border-radius: 2px;
+  
+}
+
+#slider::-webk-slider-thumb{
+   
+    width: 48px;
+    height: 48px;
+    cursor: pointe;
+    z-index: 3;
+    position: relative;
+}
+
+#SelectValue{ /* value box that view the number */
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top:-30;
+    background: #5F9EA0;
+    border-radius: 50px;
+    text-align:center;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+ /* Motor2 */
+#slider2{ 
+ -webkit-appearance: none;
+  width: 50%;
+  height: 9px;
+  outline:none;
+  border-radius: 2px;
+  
+}
+
+#slider2::-webk-slider-thumb{
+   -webkit-appearance: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointe;
+    z-index: 3;
+    position: relative;
+}
+
+
+#SelectValue2{ /* value box that view the number */
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top:-30;
+    background: #5F9EA0;
+    border-radius: 50px;
+    text-align:center;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+
+ /* Motor3 */
+#slider3{ 
+ -webkit-appearance: none;
+  width: 50%;
+  height: 9px;
+  outline:none;
+  border-radius: 2px;
+  
+}
+
+#slider3::-webk-slider-thumb{
+   -webkit-appearance: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointe;
+    z-index: 3;
+    position: relative;
+}
+
+#SelectValue3{ /* value box that view the number */
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top:-30;
+    background: #5F9EA0;
+    border-radius: 50px;
+    text-align:center;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+ /* Motor4 */
+#slider4{ 
+ -webkit-appearance: none;
+  width: 50%;
+  height: 9px;
+  outline:none;
+  border-radius: 2px;
+  
+}
+
+#slider4::-webk-slider-thumb{
+   -webkit-appearance: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointe;
+    z-index: 3;
+    position: relative;
+}
+
+#SelectValue4{ /* value box that view the number */
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top:-30;
+    background: #5F9EA0;
+    border-radius: 50px;
+    text-align:center;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+ /* Motor5 */
+#slider5{ 
+ -webkit-appearance: none;
+  width: 50%;
+  height: 9px;
+  outline:none;
+  border-radius: 2px;
+  
+}
+
+#slider5::-webk-slider-thumb{
+   -webkit-appearance: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointe;
+    z-index: 3;
+    position: relative;
+}
+
+#SelectValue5{ /* value box that view the number */
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top:-30;
+    background: #5F9EA0;
+    border-radius: 50px;
+    text-align:center;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+ /* Motor6 */
+#slider6{ 
+ -webkit-appearance: none;
+  width: 50%;
+  height: 9px;
+  outline:none;
+  border-radius: 2px;
+  
+}
+
+#slider6::-webk-slider-thumb{
+   -webkit-appearance: none;
+    width: 48px;
+    height: 48px;
+    cursor: pointe;
+    z-index: 3;
+    position: relative;
+}
+#SelectValue6{ /* value box that view the number */
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top:-30;
+    background: #5F9EA0;
+    border-radius: 50px;
+    text-align:center;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}

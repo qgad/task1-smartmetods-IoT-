@@ -1,0 +1,167 @@
+<html>
+    
+<head>
+  <title> Motors </title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+    
+ <!-- in main class there is 6 motors clases each motor have slider and selectvalue that view the live value of the selctor and there scripts  -->   
+<body>
+     <form  method = "POST"  action="link.php" >
+
+      <h1> -Arms  Motors </h1>
+  <div class="main">
+      
+      <!-- Arm1 -->
+      <div class = "motor1">
+          
+      Motor 1
+       <input type="range" min="0" max="180" value="0" id="slider" name ="motor1">
+      
+      <div id="selector">
+          <div id="SelectValue"></div>
+      </div>
+          
+          
+        <script>
+          var slider =document.getElementById("slider");
+          var SelectValue =document.getElementById("SelectValue");
+          
+          SelectValue.innerHTML=slider.value; //to view the value
+          
+           slider.oninput=function(){
+              SelectValue.innerHTML= this.value; //take the actual value
+          }//end func
+           </script>
+          
+      </div>
+
+       <!-- Arm2 -->
+      <div class = "motor2">
+      Motor 2
+      <input type="range" min="0" max="180" value="0" id="slider2"name = "motor2">
+      
+      <div id="selector">
+          <div id="SelectValue2"></div>
+      </div>
+          
+          <script>
+      
+          var slider2 =document.getElementById("slider2");
+          var SelectValue2 =document.getElementById("SelectValue2");
+          
+          SelectValue2.innerHTML=slider2.value;//to view the value
+          
+          slider2.oninput=function(){
+              SelectValue2.innerHTML= this.value;//take the actual value
+          }//end func
+          
+           </script>
+     </div>
+      
+      
+           <!-- Arm3 -->
+      <div class = "motor3">
+      Motor 3
+      <input type="range" min="0" max="180" value="0" id="slider3" name = "motor3">
+      
+      <div id="selector">
+          <div id="SelectValue3"></div>
+      </div>
+          
+          <script>
+      
+          var slider3 =document.getElementById("slider3");
+          var SelectValue3 =document.getElementById("SelectValue3");
+          
+          SelectValue3.innerHTML=slider3.value;//to view the value
+          
+          slider3.oninput=function(){
+              SelectValue3.innerHTML= this.value;//take the actual value
+          }//end func
+          
+           </script>
+     </div>
+      
+             <!-- Arm4 -->
+      <div class = "motor4">
+      Motor 4
+      <input type="range" min="0" max="180" value="0" id="slider4" name = "motor4">
+      
+      <div id="selector">
+          <div id="SelectValue4"></div>
+      </div>
+          
+          <script>
+      
+          var slider4 =document.getElementById("slider4");
+          var SelectValue4 =document.getElementById("SelectValue4");
+          
+          SelectValue4.innerHTML=slider4.value;//to view the value
+          
+          slider4.oninput=function(){
+              SelectValue4.innerHTML= this.value;//take the actual value
+          }//end func
+          
+           </script>
+     </div>
+      
+       <!-- Arm5 -->
+      <div class = "motor5">
+      Motor 5
+      <input type="range" min="0" max="180" value="0" id="slider5" name = "motor5">
+      
+      <div id="selector">
+          <div id="SelectValue5"></div>
+      </div>
+          
+          <script>
+      
+          var slider5 =document.getElementById("slider5");
+          var SelectValue5 =document.getElementById("SelectValue5");
+          
+          SelectValue5.innerHTML=slider5.value;//to view the value
+          
+          slider5.oninput=function(){
+              SelectValue5.innerHTML= this.value;//take the actual value
+          }//end func
+          
+           </script>
+     </div>
+           <!-- Arm6 -->
+      <div class = "motor6">
+      Motor 6
+      <input type="range" min="0" max="180" value="0" id="slider6" name = "motor6">
+      
+      <div id="selector">
+          <div id="SelectValue6"></div>
+      </div>
+          
+          <script>
+      
+          var slider6 =document.getElementById("slider6");
+          var SelectValue6 =document.getElementById("SelectValue6");
+          
+          SelectValue6.innerHTML=slider6.value;//to view the value
+          
+          slider6.oninput=function(){
+              SelectValue6.innerHTML= this.value;//take the actual value
+          }//end func
+          
+           </script>
+     </div>
+                 
+    Press Save then Start the new values  
+    <button type="button" onclick="alert('save the new values ?')" id="button" name = "saveB"> Save </button>
+    
+    <button type="button" onclick="alert(' start the new values ?')"id="button" name = "StartB"> Start  </button>
+       
+       </form>
+  </div>
+    
+    
+
+
+      
+</body>
+</html> 

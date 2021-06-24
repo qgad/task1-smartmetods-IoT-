@@ -1,5 +1,7 @@
 # task1
- Motors control panel 
+# Six Motors Control Panel 
+# please check the pdf file (it's contain pic of DB and web page interface and HTML Structuer) 
+
 * this file contain :
 - task guide.pdf
 - index.html
